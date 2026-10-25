@@ -1,0 +1,22 @@
+precision = "Float64"
+# Input for run_set.jl: one test frequency only, no scan.
+[model]
+L = 50
+temperature = "0.02"
+U = "-4"
+mu = "0"
+dt = "0.01"
+tmin = "-700"
+tmax = "700"
+tolerance = "1e-12"
+epsilon = "0.001"
+omega = "1"
+tau_f = "0.1"
+tau_g = "141.42135623730950488016887242097"
+polarization = [1, 0]
+field_mode = "table4"
+update_mean_field = true
+
+[set]
+amplitudes = ["0.001", "0.01"]
+kinds = ["f", "cos_plus", "cos_minus", "sin_plus", "sin_minus"]

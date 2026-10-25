@@ -1,0 +1,31 @@
+{
+  "fixed_mean_field": true,
+  "command": [
+    "clang++",
+    "-O3",
+    "-std=c++11",
+    "-Wno-deprecated-declarations",
+    "-I/opt/local/include/eigen3",
+    "-I/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Programs_MF/SC_phonon",
+    "/Users/yutamurakami/Documents/Research/\u5b66\u751f\uff20\u6771\u5317\u5927/\u4e09\u539f/\u7814\u7a76\u88dc\u52a9/Attractive_Hubbard/reference/SC_dynamics_main_fixed_instrumented.cpp",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Programs_MF/SC_phonon/SC_model_basic.cpp",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Lib_utils/basic_const.cpp",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Lib_utils/Interpolation.cpp",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Lib_QM/basic_functions.cpp",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Lib_utils/input_param.cpp",
+    "-o",
+    "/Users/yutamurakami/Documents/Research/\u5b66\u751f\uff20\u6771\u5317\u5927/\u4e09\u539f/\u7814\u7a76\u88dc\u52a9/Attractive_Hubbard/reference/sc_model_fixed_reference.ex"
+  ],
+  "compiler": "Apple clang version 16.0.0 (clang-1600.0.26.6)\nTarget: arm64-apple-darwin23.6.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "changes": "main output precision17, equilibrium state dump and steady_clock timing only",
+  "sha256": {
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Programs_MF/SC_phonon/sc_dynamics_main_fixMF.cpp": "d79c42cb28fea5ca872d14fd967f21b295a54e78e8c795f7617cb649d73aa926",
+    "/Users/yutamurakami/Documents/Research/\u5b66\u751f\uff20\u6771\u5317\u5927/\u4e09\u539f/\u7814\u7a76\u88dc\u52a9/Attractive_Hubbard/reference/SC_dynamics_main_fixed_instrumented.cpp": "05eaa420f2b810e39e05de6c504aebc6908fcff6afd13b387afff59cad2880e4",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Programs_MF/SC_phonon/SC_model_basic.cpp": "e0489612104cf22b984e278719829509cf2e434492d0f660bce65185a5abdf8a",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Lib_utils/basic_const.cpp": "9e87cd0a3386afa37c80dd759ff7ecf4c0944f805d9cf636a078f88ac78177dd",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Lib_utils/Interpolation.cpp": "7585de59903a2be5e68f9deaca15f881d4f18c18b14a60f129fbdd699c37353e",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Lib_QM/basic_functions.cpp": "5ec9b665fe9b371b1a9d4406e2781ded0aad75d935e8cb80a4c905c8d60e5ed9",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Lib_utils/input_param.cpp": "0cce82f8ec792b4137887104a1da4be95968a13bf5a8475bb4159a93bcb5db98",
+    "/Users/yutamurakami/Documents/Softwares/Lib_TDDM_ver2/Programs_MF/SC_phonon/SC_model_basic.hpp": "9b7741e73f78c837ac84463c86d3d3fa7d0920da798d9ba5978d3102d1164abd"
+  }
+}

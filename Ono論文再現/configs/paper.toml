@@ -1,0 +1,14 @@
+# Main Fig.2 scales. Time endpoints are our choice, not specified in the text.
+nk = 800
+dt = "0.01"
+tmin = "-1000"
+tmax = "1000"
+hx = "1"
+hy = "0.5"
+hz = "0.1"
+gamma = "0.01"
+tauf = "0.1"
+# omitted taug means sqrt(2)/gamma
+epsilon = "1e-6"
+omega1 = "0.5"
+amplitudes = ["1e-4", "1e-3"]

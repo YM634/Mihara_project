@@ -1,0 +1,81 @@
+# Local OS/editor files
+.DS_Store
+._*
+*~
+*.swp
+*.swo
+
+# Julia/Python environments and caches (restore from Project/Manifest on cluster)
+.julia_depot/
+.julia/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Compiled binaries and build products; retain C++/Julia/Python source files
+*.ex
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.ji
+*.dSYM/
+
+# Raw numerical data, serialized states, exported time series
+*.f64
+*.bin
+*.jls
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.jld
+*.jld2
+*.dat
+*.tsv
+*.csv
+
+# Generated result trees: keep Markdown reports, omit data/plots/runtime files
+**/results/**
+!**/results/**/
+!**/results/**/*.md
+
+# Legacy C++ job output directories: keep Markdown reports
+/run_job_Ono/benchmark_*/**
+!/run_job_Ono/benchmark_*/**/
+!/run_job_Ono/benchmark_*/**/*.md
+/run_job_Ono/scaling_*/**
+!/run_job_Ono/scaling_*/**/
+!/run_job_Ono/scaling_*/**/*.md
+/run_job_Ono/equilibrium_*/**
+!/run_job_Ono/equilibrium_*/**/
+!/run_job_Ono/equilibrium_*/**/*.md
+
+# Field tables and runtime logs
+Ax_t.txt
+Ay_t.txt
+Ex_t.txt
+Ey_t.txt
+*.log
+*.out
+*.err
+
+# Distribution archives / temporary working files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tar.xz
+/tmp/
+
+# Keep Project.toml, Manifest.toml, configs/, source, tests/, PDFs and Markdown.
+# For_Mihara/README.md and */Params.md stay tracked; observables.dat is ignored.
+# This does not remove files that have already been committed to Git.
